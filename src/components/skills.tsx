@@ -3,7 +3,7 @@ import { Braces, GalleryHorizontal, Code } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import React from 'react';
 
-const PythonIcon = (props: React.SVGProps<SVGSVGElement>) => (
+const SnakeIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -16,13 +16,12 @@ const PythonIcon = (props: React.SVGProps<SVGSVGElement>) => (
     strokeLinejoin="round"
     {...props}
   >
-    <path d="M10.5 8.5a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z" />
-    <path d="M16.5 15.5a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z" />
-    <path d="M5 18s2-3 5-3 6 3 6 3" />
-    <path d="M19 8s-2 3-5 3-6-3-6-3" />
-    <path d="M14 22v-3.5a2.5 2.5 0 0 0-2.5-2.5h-1A2.5 2.5 0 0 0 8 18.5V22" />
-    <path d="M15 2h.5a2.5 2.5 0 0 1 2.5 2.5v1A2.5 2.5 0 0 1 15.5 8H14" />
-    <path d="M9 2h-.5A2.5 2.5 0 0 0 6 4.5v1A2.5 2.5 0 0 0 8.5 8H10" />
+    <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
+    <path d="M4 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
+    <path d="M20 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
+    <path d="M8 12s4 4 4 4" />
+    <path d="M16 12s-4 4-4 4" />
+    <path d="M12 16s0 4 0 4" />
   </svg>
 );
 
@@ -31,7 +30,7 @@ const skills: { name: string; icon: LucideIcon | React.FC<React.SVGProps<SVGSVGE
   { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Micro-Metrics' },
   { name: '.Net', icon: GalleryHorizontal, url: 'https://github.com/carolina-sv/Parking-System-API' },
   { name: 'PHP', icon: Code, url: 'https://github.com/carolina-sv/CI-CRUD.git' },
-  { name: 'Python', icon: PythonIcon, url: 'https://github.com/carolina-sv/Snake-Neon-Game.git' },
+  { name: 'Python', icon: SnakeIcon, url: 'https://github.com/carolina-sv/Snake-Neon-Game.git' },
 ];
 
 export function Skills() {
