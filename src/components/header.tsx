@@ -9,7 +9,7 @@ export function Header() {
           Carolina Viana
         </h1>
       </div>
-      <p className="text-base leading-relaxed text-muted-foreground">
+      <p className="whitespace-nowrap text-base leading-relaxed text-muted-foreground">
         Full Stack Development | Systems Analysis | AI & Automation
       </p>
       <div className="flex items-center space-x-4">
