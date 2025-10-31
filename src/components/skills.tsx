@@ -1,11 +1,11 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Braces, Atom, GalleryHorizontal, Code, Rat } from 'lucide-react';
+import { Braces, GalleryHorizontal, Code, Rat } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 const skills: { name: string; icon: LucideIcon; url: string }[] = [
-  { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolinavianadev/js-project' },
-  { name: 'React', icon: Atom, url: 'https://github.com/carolinavianadev/react-project' },
-  { name: '.Net', icon: GalleryHorizontal, url: 'https://github.com/carolinavianadev/dotnet-project' },
+  { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolina-sv/Countdown-2030' },
+  { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Micro-Metrics' },
+  { name: '.Net', icon: GalleryHorizontal, url: 'https://github.com/carolina-sv/Parking-System-API' },
   { name: 'PHP', icon: Code, url: 'https://github.com/carolinavianadev/php-project' },
   { name: 'Python', icon: Rat, url: 'https://github.com/carolinavianadev/python-project' },
 ];
