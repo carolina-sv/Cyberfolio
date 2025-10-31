@@ -7,9 +7,10 @@ export function HolopinBadge() {
         <Image
           src="https://holopin.io/api/user/board?user=carolinasv"
           alt="Holopin board"
-          width={600}
-          height={200}
-          className="border-2 border-border bg-card/80 backdrop-blur-sm transition-all hover:border-primary hover:box-glow"
+          width={800}
+          height={400}
+          className="w-full h-auto border-2 border-border bg-card/80 backdrop-blur-sm transition-all hover:border-primary hover:box-glow"
+          unoptimized
         />
       </a>
     </section>
