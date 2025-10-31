@@ -10,7 +10,7 @@ export function Header() {
         </h1>
       </div>
       <p className="max-w-md text-base leading-relaxed text-muted-foreground">
-        A creative developer blending code with pixel art aesthetics.
+        Full Stack Development | Systems Analysis | AI & Automation
       </p>
       <div className="flex items-center space-x-4">
         <Button asChild variant="ghost" size="icon" className="text-foreground/80 hover:text-primary hover:bg-transparent transition-colors">
