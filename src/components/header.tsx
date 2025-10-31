@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="flex flex-col items-center justify-center space-y-6 text-center">
       <div className="relative">
-        <h1 className="font-headline text-4xl font-bold tracking-tighter text-glow sm:text-5xl md:text-6xl">
+        <h1 className="font-headline text-4xl tracking-tighter text-glow sm:text-5xl md:text-6xl">
           Carolina Viana
         </h1>
       </div>
