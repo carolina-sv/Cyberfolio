@@ -9,7 +9,7 @@ export function HolopinBadge() {
           alt="Holopin board"
           width={600}
           height={200}
-          className="rounded-lg border-border/50 bg-card/80 backdrop-blur-sm transition-all hover:border-primary hover:box-glow"
+          className="border-2 border-border bg-card/80 backdrop-blur-sm transition-all hover:border-primary hover:box-glow"
         />
       </a>
     </section>

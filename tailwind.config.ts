@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['"Space Grotesk"', 'sans-serif'],
-        headline: ['"Space Grotesk"', 'sans-serif'],
+        body: ['"Press Start 2P"', 'monospace'],
+        headline: ['"Press Start 2P"', 'monospace'],
         code: ['monospace'],
       },
       colors: {
