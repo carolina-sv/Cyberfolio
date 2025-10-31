@@ -26,9 +26,9 @@ const SnakeIcon = (props: React.SVGProps<SVGSVGElement>) => (
 );
 
 const skills: { name: string; icon: LucideIcon | React.FC<React.SVGProps<SVGSVGElement>>; url: string }[] = [
-  { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolina-sv/Countdown-2030' },
-  { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Micro-Metrics' },
-  { name: '.Net', icon: GalleryHorizontal, url: 'https://github.com/carolina-sv/Parking-System-API' },
+  { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolina-sv/First-Original-Pixel-Game.git' },
+  { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Micro-Metrics.git' },
+  { name: '.Net', icon: GalleryHorizontal, url: 'https://github.com/carolina-sv/Parking-System-API.git' },
   { name: 'PHP', icon: Code, url: 'https://github.com/carolina-sv/CI-CRUD.git' },
   { name: 'Python', icon: SnakeIcon, url: 'https://github.com/carolina-sv/Snake-Neon-Game.git' },
 ];
