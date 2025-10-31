@@ -16,10 +16,13 @@ const PythonIcon = (props: React.SVGProps<SVGSVGElement>) => (
     strokeLinejoin="round"
     {...props}
   >
-    <path d="M12 10a2 2 0 10-4 0 2 2 0 004 0z" />
-    <path d="M18 10a2 2 0 10-4 0 2 2 0 004 0z" />
-    <path d="M5.5 14h.5a2.5 2.5 0 012.5 2.5v0a2.5 2.5 0 01-2.5 2.5h-1A2.5 2.5 0 012 16.5v0A2.5 2.5 0 014.5 14h1z" />
-    <path d="M15.5 14h.5a2.5 2.5 0 012.5 2.5v0a2.5 2.5 0 01-2.5 2.5h-1A2.5 2.5 0 0112 16.5v0a2.5 2.5 0 012.5-2.5h1z" />
+    <path d="M10.5 8.5a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z" />
+    <path d="M16.5 15.5a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z" />
+    <path d="M5 18s2-3 5-3 6 3 6 3" />
+    <path d="M19 8s-2 3-5 3-6-3-6-3" />
+    <path d="M14 22v-3.5a2.5 2.5 0 0 0-2.5-2.5h-1A2.5 2.5 0 0 0 8 18.5V22" />
+    <path d="M15 2h.5a2.5 2.5 0 0 1 2.5 2.5v1A2.5 2.5 0 0 1 15.5 8H14" />
+    <path d="M9 2h-.5A2.5 2.5 0 0 0 6 4.5v1A2.5 2.5 0 0 0 8.5 8H10" />
   </svg>
 );
 
@@ -35,7 +38,7 @@ export function Skills() {
   return (
     <section id="skills" className="space-y-8">
       <h2 className="text-center font-headline text-3xl font-bold tracking-tight text-glow md:text-4xl">
-        My Tech Stack
+        Projetos nas linguagens:
       </h2>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
         {skills.map((skill) => (
