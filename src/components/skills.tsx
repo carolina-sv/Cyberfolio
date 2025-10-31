@@ -37,7 +37,7 @@ export function Skills() {
   return (
     <section id="skills" className="space-y-8">
       <h2 className="text-center font-headline text-3xl font-bold tracking-tight text-glow md:text-4xl">
-        Projetos nas linguagens:
+        Projects:
       </h2>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
         {skills.map((skill) => (
