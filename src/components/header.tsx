@@ -14,12 +14,12 @@ export function Header() {
       </p>
       <div className="flex items-center space-x-4">
         <Button asChild variant="ghost" size="icon" className="text-foreground/80 hover:text-primary hover:bg-transparent transition-colors">
-          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <a href="https://github.com/carolina-sv" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <Github className="h-7 w-7" />
           </a>
         </Button>
         <Button asChild variant="ghost" size="icon" className="text-foreground/80 hover:text-primary hover:bg-transparent transition-colors">
-          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/carolina-viana-847305218/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <Linkedin className="h-7 w-7" />
           </a>
         </Button>
