@@ -1,6 +1,5 @@
 import { Header } from "@/components/header";
 import { Skills } from "@/components/skills";
-import { ArtworkGallery } from "@/components/artwork-gallery";
 import { GenerativeArtwork } from "@/components/generative-artwork";
 
 export default function Home() {
@@ -11,7 +10,6 @@ export default function Home() {
         <Header />
         <div className="mt-16 grid gap-12 md:gap-16">
           <Skills />
-          <ArtworkGallery />
           <GenerativeArtwork />
         </div>
       </main>

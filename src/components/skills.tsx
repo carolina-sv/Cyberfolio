@@ -2,12 +2,12 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Braces, Atom, GalleryHorizontal, Code, Rat } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
-const skills: { name: string; icon: LucideIcon }[] = [
-  { name: 'JavaScript', icon: Braces },
-  { name: 'React', icon: Atom },
-  { name: '.Net', icon: GalleryHorizontal },
-  { name: 'PHP', icon: Code },
-  { name: 'Python', icon: Rat },
+const skills: { name: string; icon: LucideIcon; url: string }[] = [
+  { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolinavianadev/js-project' },
+  { name: 'React', icon: Atom, url: 'https://github.com/carolinavianadev/react-project' },
+  { name: '.Net', icon: GalleryHorizontal, url: 'https://github.com/carolinavianadev/dotnet-project' },
+  { name: 'PHP', icon: Code, url: 'https://github.com/carolinavianadev/php-project' },
+  { name: 'Python', icon: Rat, url: 'https://github.com/carolinavianadev/python-project' },
 ];
 
 export function Skills() {
@@ -17,13 +17,15 @@ export function Skills() {
         My Tech Stack
       </h2>
       <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
-        {skills.map((skill, index) => (
-          <Card key={skill.name} className="group border-border/50 bg-card/80 backdrop-blur-sm transition-all hover:border-primary hover:box-glow">
-            <CardContent className="flex flex-col items-center justify-center p-6">
-              <skill.icon className="h-10 w-10 text-primary transition-transform group-hover:scale-110" />
-              <p className="mt-4 font-semibold">{skill.name}</p>
-            </CardContent>
-          </Card>
+        {skills.map((skill) => (
+          <a key={skill.name} href={skill.url} target="_blank" rel="noopener noreferrer" className="block transition-transform hover:scale-105">
+            <Card className="group h-full border-border/50 bg-card/80 backdrop-blur-sm transition-all hover:border-primary hover:box-glow">
+              <CardContent className="flex h-full flex-col items-center justify-center p-6">
+                <skill.icon className="h-10 w-10 text-primary transition-transform group-hover:scale-110" />
+                <p className="mt-4 font-semibold text-center">{skill.name}</p>
+              </CardContent>
+            </Card>
+          </a>
         ))}
       </div>
     </section>
