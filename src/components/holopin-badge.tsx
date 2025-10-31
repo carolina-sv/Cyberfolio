@@ -1,0 +1,17 @@
+import Image from 'next/image';
+
+export function HolopinBadge() {
+  return (
+    <section id="holopin" className="space-y-8 flex flex-col items-center">
+      <a href="https://holopin.io/@carolinasv" target="_blank" rel="noopener noreferrer">
+        <Image
+          src="https://holopin.io/api/user/board?user=carolinasv"
+          alt="Holopin board"
+          width={600}
+          height={200}
+          className="rounded-lg border-border/50 bg-card/80 backdrop-blur-sm transition-all hover:border-primary hover:box-glow"
+        />
+      </a>
+    </section>
+  );
+}
