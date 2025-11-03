@@ -3,7 +3,7 @@ import { Braces, GalleryHorizontal, Code } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import React from 'react';
 
-const SnakeIcon = (props: React.SVGProps<SVGSVGElement>) => (
+const SnakeIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
