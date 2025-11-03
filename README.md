@@ -21,24 +21,6 @@ A interface simula um ambiente retrô de terminal com visual neon, inspirado em 
 - ☁️ **Firebase Hosting** — Deploy rápido e confiável  
 - 🧠 **Framer Motion** — Animações sutis
 
----
-
-## 🖼️ Estrutura de Projeto
-
-STUDIO/
-├── .next/ # Build gerado pelo Next.js
-├── docs/ # Imagens e documentação
-├── node_modules/ # Dependências do projeto
-├── src/ # Código-fonte principal
-│ ├── app/ # Páginas e rotas
-│ ├── components/ # Componentes reutilizáveis
-│ └── styles/ # Estilos globais
-├── public/ # Ícones, imagens e assets
-├── package.json # Configuração de dependências
-├── tailwind.config.ts # Configuração do Tailwind
-├── tsconfig.json # Configuração do TypeScript
-└── README.md # Este arquivo
-
 
 ---
 
