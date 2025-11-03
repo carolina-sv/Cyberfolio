@@ -1,6 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Braces, GalleryHorizontal, Code } from 'lucide-react';
-import type { LucideIcon } from 'lucide-react';
 import React from 'react';
 
 const SnakeIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
@@ -25,7 +24,7 @@ const SnakeIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   </svg>
 );
 
-const skills: { name: string; icon: LucideIcon | React.FC<React.SVGProps<SVGSVGElement>>; url: string }[] = [
+const skills: { name: string; icon: React.ElementType; url: string }[] = [
   { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolina-sv/First-Original-Pixel-Game.git' },
   { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Micro-Metrics.git' },
   { name: '.Net', icon: GalleryHorizontal, url: 'https://github.com/carolina-sv/Parking-System-API.git' },
