@@ -1,7 +1,9 @@
-# 🧠 Cyberfolio — Carolina Viana
+# 🧠 Cyberfolio 
 
 > 🚀 Um portfólio interativo com tema cyberpunk/pixel inspirado em terminais retro.  
 > Desenvolvido com Next.js, Tailwind CSS e TypeScript.
+
+<img width="1269" height="780" alt="image" src="https://github.com/user-attachments/assets/62154f9a-8f3e-4cc7-9ae7-e634bb8ded00" />
 
 ---
 
