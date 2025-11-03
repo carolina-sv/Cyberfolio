@@ -36,7 +36,7 @@ export function Skills() {
       <h2 className="text-center font-headline text-3xl font-bold tracking-tight text-glow md:text-4xl">
         Projects:
       </h2>
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 justify-center">
         {skills.map((skill) => (
           <a key={skill.name} href={skill.url} target="_blank" rel="noopener noreferrer" className="block transition-transform hover:scale-105">
             <Card className="group h-full border-2 border-border bg-card/80 backdrop-blur-sm transition-all hover:border-primary hover:box-glow">
