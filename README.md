@@ -21,7 +21,10 @@ A interface simula um ambiente retrô de terminal com visual neon, inspirado em 
 - ☁️ **Firebase Hosting** — Deploy rápido e confiável  
 - 🧠 **Framer Motion** — Animações sutis
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 049537e (dosc:update readme)
 ---
 
 ## ⚙️ Como Executar Localmente
@@ -41,4 +44,8 @@ npm install
 npm run dev
 ```
 
+<<<<<<< HEAD
 ##  ⭐ Se gostou do projeto, não esqueça de deixar uma estrela no repositório! ⭐
+=======
+##  ⭐ Se gostou do projeto, não esqueça de deixar uma estrela no repositório! ⭐
+>>>>>>> 049537e (dosc:update readme)

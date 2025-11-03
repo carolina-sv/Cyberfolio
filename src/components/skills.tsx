@@ -26,7 +26,7 @@ const SnakeIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 
 const skills: { name: string; icon: React.ElementType; url: string }[] = [
   { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolina-sv/First-Original-Pixel-Game.git' },
-  { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Micro-Metrics.git' },
+  { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Virtual-Console.git' },
   { name: 'Python', icon: SnakeIcon, url: 'https://github.com/carolina-sv/Snake-Neon-Game.git' },
 ];
 

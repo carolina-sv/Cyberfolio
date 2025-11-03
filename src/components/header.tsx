@@ -10,19 +10,41 @@ export function Header() {
         </h1>
       </div>
       <p className="whitespace-nowrap text-base leading-relaxed text-muted-foreground">
-        Full Stack Development | Systems Analysis | AI & Automation
+        Front end Development |  AI & Automation
       </p>
       <div className="flex items-center space-x-4">
-        <Button asChild variant="ghost" size="icon" className="text-foreground/80 hover:text-primary hover:bg-transparent transition-colors h-10 w-10">
-          <a href="https://github.com/carolina-sv" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <Github className="h-10 w-10" />
-          </a>
-        </Button>
-        <Button asChild variant="ghost" size="icon" className="text-foreground/80 hover:text-primary hover:bg-transparent transition-colors h-10 w-10">
-          <a href="https://www.linkedin.com/in/carolina-viana-847305218/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <Linkedin className="h-10 w-10" />
-          </a>
-        </Button>
+      <Button
+  asChild
+  variant="ghost"
+  size="icon"
+  className="text-foreground/80 hover:text-primary hover:bg-transparent transition-colors h-14 w-14"
+>
+  <a
+    href="https://github.com/carolina-sv"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="GitHub"
+  >
+    <Github className="h-12 w-12" />
+  </a>
+</Button>
+
+<Button
+  asChild
+  variant="ghost"
+  size="icon"
+  className="text-foreground/80 hover:text-primary hover:bg-transparent transition-colors h-14 w-14"
+>
+  <a
+    href="https://www.linkedin.com/in/carolina-viana-847305218/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+  >
+    <Linkedin className="h-12 w-12" />
+  </a>
+</Button>
+
       </div>
     </header>
   );
