@@ -1,58 +1,12 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { Braces } from 'lucide-react';
+import { Braces, Code, Layers } from 'lucide-react';
 import React from 'react';
-
-const SnakeIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    {...props}
-  >
-    <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
-    <path d="M4 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
-    <path d="M20 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
-    <path d="M8 12s4 4 4 4" />
-    <path d="M16 12s-4 4-4 4" />
-    <path d="M12 16s0 4 0 4" />
-  </svg>
-);
-
-const DotNetIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-    <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        {...props}
-    >
-        <path d="M14.5 17.5L18 21" />
-        <path d="M6 17.5L9.5 21" />
-        <path d="M12 21V3" />
-        <path d="M18 17.5L9.5 3" />
-        <path d="M6 17.5L14.5 3" />
-        <path d="M14.5 12L6 12" />
-        <path d="M18 8L9.5 8" />
-    </svg>
-);
-
 
 const skills: { name: string; icon: React.ElementType; url: string }[] = [
   { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolina-sv/First-Original-Pixel-Game.git' },
   { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Virtual-Console.git' },
-  { name: 'Python', icon: DotNetIcon, url: 'https://github.com/carolina-sv/Snake-Neon-Game.git' },
-  { name: '.NET', icon: SnakeIcon, url: 'https://github.com/carolina-sv/Parking-System-API.git' },
+  { name: 'Python', icon: Code, url: 'https://github.com/carolina-sv/Snake-Neon-Game.git' },
+  { name: '.NET', icon: Layers, url: 'https://github.com/carolina-sv/Parking-System-API.git' },
 ];
 
 export function Skills() {
