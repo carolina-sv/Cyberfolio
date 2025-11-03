@@ -24,10 +24,35 @@ const SnakeIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   </svg>
 );
 
+const DotNetIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        {...props}
+    >
+        <path d="M14.5 17.5L18 21" />
+        <path d="M6 17.5L9.5 21" />
+        <path d="M12 21V3" />
+        <path d="M18 17.5L9.5 3" />
+        <path d="M6 17.5L14.5 3" />
+        <path d="M14.5 12L6 12" />
+        <path d="M18 8L9.5 8" />
+    </svg>
+);
+
+
 const skills: { name: string; icon: React.ElementType; url: string }[] = [
   { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolina-sv/First-Original-Pixel-Game.git' },
   { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Virtual-Console.git' },
   { name: 'Python', icon: SnakeIcon, url: 'https://github.com/carolina-sv/Snake-Neon-Game.git' },
+  { name: '.NET', icon: DotNetIcon, url: 'https://github.com/carolina-sv/Parking-System-API.git' },
 ];
 
 export function Skills() {
@@ -36,7 +61,7 @@ export function Skills() {
       <h2 className="text-center font-headline text-3xl font-bold tracking-tight text-glow md:text-4xl">
         Projects:
       </h2>
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 justify-center">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4 justify-center">
         {skills.map((skill) => (
           <a key={skill.name} href={skill.url} target="_blank" rel="noopener noreferrer" className="block transition-transform hover:scale-105">
             <Card className="group h-full border-2 border-border bg-card/80 backdrop-blur-sm transition-all hover:border-primary hover:box-glow">
