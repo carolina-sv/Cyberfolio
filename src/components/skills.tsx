@@ -51,8 +51,8 @@ const DotNetIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 const skills: { name: string; icon: React.ElementType; url: string }[] = [
   { name: 'JavaScript', icon: Braces, url: 'https://github.com/carolina-sv/First-Original-Pixel-Game.git' },
   { name: 'TypeScript', icon: Braces, url: 'https://github.com/carolina-sv/Virtual-Console.git' },
-  { name: 'Python', icon: SnakeIcon, url: 'https://github.com/carolina-sv/Snake-Neon-Game.git' },
-  { name: '.NET', icon: DotNetIcon, url: 'https://github.com/carolina-sv/Parking-System-API.git' },
+  { name: 'Python', icon: DotNetIcon, url: 'https://github.com/carolina-sv/Snake-Neon-Game.git' },
+  { name: '.NET', icon: SnakeIcon, url: 'https://github.com/carolina-sv/Parking-System-API.git' },
 ];
 
 export function Skills() {
